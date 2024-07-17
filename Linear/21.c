@@ -5,7 +5,9 @@ int main()
     int m = 1;
     int n;
 
-    while (x < n) {
+    while (x < n) 
+    //  
+    {
         if (unknown()) {
             m = x;
         }

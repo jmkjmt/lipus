@@ -9,7 +9,9 @@ int main() {
   assume((y <= 10));
   assume((y >= 0));
   // loop body
-  while (unknown()) {
+  while (unknown()) 
+  // x-y<=10 && y-x<=10
+  {
     {
     (x  = (x + 10));
     (y  = (y + 10));
