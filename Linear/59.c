@@ -6,7 +6,9 @@ int main() {
   (c = 0);
   assume((n > 0));
   // loop body
-  while (unknown()) {
+  while (unknown()) 
+  // n>0 && (c != n -> c<n)
+  {
     {
       if ( unknown() ) {
         if ( (c != n) )

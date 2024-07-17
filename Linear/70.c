@@ -5,7 +5,9 @@ int main() {
     int x = 1;
     int y;
 
-    while (x <= n) {
+    while (x <= n) 
+    // n>0 -> (x==1 || (1<=x && x<=n+1 && y<n))
+    {
         y = n - x;
         x = x +1;
     }

@@ -9,7 +9,9 @@ int main() {
   assume((y >= 0));
   assume((x >= y));
   // loop body
-  while (unknown()) {
+  while (unknown()) 
+  // i <= y && y<=x
+  {
     if ( (i < y) )
     {
     (i  = (i + 1));

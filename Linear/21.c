@@ -6,7 +6,7 @@ int main()
     int n;
 
     while (x < n) 
-    //  we can find invariant
+    //  ((1<x && x<=n) -> m<x) && (n>=1 ->( 1<=x  && x<=n))
     {
         if (unknown()) {
             m = x;
