@@ -6,7 +6,7 @@ int main()
     int n;
 
     while (x < n) 
-    //  
+    //  we can find invariant
     {
         if (unknown()) {
             m = x;
