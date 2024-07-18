@@ -10,7 +10,7 @@ int main() {
   assume((y >= 0));
   // loop body
   while (unknown()) 
-    //x-y<=2 && y-x<=2
+    //x-y<=2
   {
     {
     (x  = (x + 2));
