@@ -6,7 +6,7 @@ int main()
     int n;
 
     while (x < n) 
-    //  ((1<x && x<=n) -> m<x) && (n>=1 ->( 1<=x  && x<=n))
+    //  ((1<x && x<=n) -> m<x) && (n>=1 ->( 1<=x  && x<=n)) (fail)
     {
         if (unknown()) {
             m = x;
